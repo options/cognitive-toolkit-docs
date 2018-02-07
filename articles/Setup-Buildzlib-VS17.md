@@ -52,7 +52,7 @@ The following aspects are important:
 ### Command prompt environment for build
 
 > [!NOTE]
-> If VS2017INSTALLDIR variable was not set by the Visual Studio installer, set it manually. The exact installation directory depends on both the *version* (2017 in this case) and *offering* (Community, Enterprise, etc) of Visual Studio, according to the following pattern: "C:\Program Files (x86)\Microsoft Visual Studio\\*\<version\>*\\*\<offering\>*".
+> If `VS2017INSTALLDIR` environment variable was not set by the Visual Studio installer, set it manually. The exact installation directory depends on both the *version* (2017 in this case) and *offering* (*Community*, *Enterprise*, etc) of Visual Studio, according to the following pattern: "C:\Program Files (x86)\Microsoft Visual Studio\\*\<version\>*\\*\<offering\>*".
 >
 > For *Visual Studio 2017 Enterprise* edition, run:
 > ```
